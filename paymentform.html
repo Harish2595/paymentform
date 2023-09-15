@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment Form <!--basicpayment form--></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action=""method="get">
+            <h1><center>
+                PAYMENT FORM
+                </center>
+            </h1>
+            <hr>
+            <h2>
+                USER's INFORMATION
+            </h2>
+            <p>
+                Name of the Account Holder:
+                <input type="text"requried name="name"placeholder="users name">
+            </p>
+            <p>
+                <fieldset>
+                    <legend>
+                        Gender
+                    </legend>
+                    Male <input type="radio"name="gender"id="male"value="M"requried>
+                    Female <input type="radio"name="gender"id="female"value="F"requried>
+                </fieldset>
+
+            </p>
+            <p>
+                Adress:
+                <textarea placeholder="enter your perfect locations"name="adress"id="adress"cols="100"></textarea>
+            </p>
+            <p>
+                Email:
+                <input type="email"name="email"id="email"requried placeholder="xxxx@gmail.com">
+            </p>
+            <p>
+                pincode:
+                <input type="pin code"name="pin"id="pin"requried placeholder="teri address ka pincode lika salle">
+
+            </p>
+            <hr>
+            <h2>
+                <center>
+                    Payment Details
+                </center>
+            </h2>
+            <p>
+                Card type:
+                <select name="card_type"id="card_type"requried>
+                    <option value="">---select ur card type----</option>
+                    <option value="visa">VISA</option>
+                    <option value="rupay">MASTERCARD</option>
+                    <option value="lwdAPAY">LWDACARD</option>
+
+
+
+
+                </select>
+                
+            </p>
+            <P>
+                Card numer:
+                <input type="cardnum"name="num"id="num"requried placeholder="teri num enter madale lwde">
+                
+            </P>
+            <p>
+                Expiration date:
+                <input type="day"name="day"id="day"requried placeholder="date/month/year">
+
+            </p>
+            <p>
+                CVV:
+                <input type="cvv"name="cvv"id="cvv"requried placeholder="cvv number atm card backside number yelalai lwde">
+
+            </p>
+            
+                PAY NOW
+                <input type="submit"name="paylwda"requried>
+                <div class="ForgetInformation">
+                    <a href ="www.google.com">
+                        Forgot pin
+                      </a>
+                    
+                </div>
+                
+          
+            <hr>
+        </form>
+        </form>
+    </div>
+</body>
+</html>
